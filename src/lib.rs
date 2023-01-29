@@ -1,3 +1,5 @@
+#![cfg(target_os = "windows")]
+
 use windows_sys::Win32::System::Diagnostics::Debug::Beep;
 
 pub fn beep(hertz: u32, millis: u32) {
