@@ -1,7 +1,9 @@
 [package]
 name = "win-beep"
-description = "Calls the `Beep()` function of the Windows API."
 version = "1.0.0"
+description = "Calls the `Beep()` function of the Windows API."
+categories = ["development-tools::debugging", "multimedia::audio", "os::windows-apis"]
+repository = "https://github.com/Enyium/win-beep"
 license = "MIT OR Apache-2.0"
 edition = "2021"
 

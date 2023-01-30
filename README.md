@@ -3,7 +3,7 @@ Causes a beeping sound on Windows with a given frequency and duration ([used API
 # Usage
 
 ```rust
-win_beep::beep(1000 /*Hz*/, 100 /*ms*/);
+win_beep::beep_with_hz_and_millis(1000, 100);
 ```
 
 # License
