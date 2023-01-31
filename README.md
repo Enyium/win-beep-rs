@@ -1,3 +1,5 @@
+[<img alt="crates.io" src="https://img.shields.io/crates/v/win-beep.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/win-beep)
+
 Causes a beeping sound on Windows with a given frequency and duration ([used API](https://learn.microsoft.com/en-us/windows/win32/api/utilapiset/nf-utilapiset-beep)). Blocks the thread while beeping. System sounds must not be muted for the beep to be audible.
 
 # Usage

@@ -1,4 +1,5 @@
 #![cfg(target_os = "windows")]
+#![warn(clippy::pedantic)]
 
 use windows_sys::Win32::System::Diagnostics::Debug::Beep;
 
